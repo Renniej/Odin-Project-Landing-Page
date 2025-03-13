@@ -1,13 +1,42 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./font/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+}
+
+* {
+  font-family: Roboto;
+} 
+
+body >div {
+    padding: 2% 10%; 
+}
+
+
+
 .nav-bar {
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    background-color: aqua;
-    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+
 }
 
 .nav-links {
+  
+
+    display: flex;
     margin-left: auto;
+    color: #E5E7EB
+}
+
+.nav-links > a {
+    margin-right: 4%;
 }
 
 .intro-header {
@@ -31,7 +60,6 @@
     background-color: brown;
     display: flex;
     flex-direction: row;
-
 }
 
 .image-group{
@@ -46,3 +74,15 @@
 }
 
 
+.sign-up-container {
+    display: flex;
+    background-color: aqua;
+    flex : 1;
+    padding: 3%;
+    align-items: center;
+}
+
+.sign-up-btn {
+    height: 50%;
+    margin-left: auto;
+}
