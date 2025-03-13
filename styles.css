@@ -1,0 +1,48 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: aqua;
+    
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.intro-header {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    gap : 5px;
+    flex : 1;
+}
+
+.website-desc {
+    margin-right: auto;
+}
+
+.intro-header img {
+    margin-left: auto;
+}
+
+
+.image-group-list {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image-group{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.image-group p {
+    width: 100px;
+}
+
+
